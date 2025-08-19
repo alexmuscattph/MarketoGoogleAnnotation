@@ -1,0 +1,45 @@
+<!-- Gmail Promotions (2-card) — Module Variables -->
+<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img1"      mktoname="Card 1 Image"       default="https://your-cdn.com/path/card1.jpg" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_url1"      mktoname="Card 1 URL"         default="https://www.tripointehomes.com/promo-card-1" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_head1"     mktoname="Card 1 Headline"    default="Right Home, Right Now" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_price1"    mktoname="Card 1 Price (no $)" default="655835" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_curr1"     mktoname="Card 1 Currency"    default="USD" />
+
+<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img2"      mktoname="Card 2 Image"       default="https://your-cdn.com/path/card2.jpg" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_url2"      mktoname="Card 2 URL"         default="https://www.tripointehomes.com/promo-card-2" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_head2"     mktoname="Card 2 Headline"    default="Limited-Time Savings" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_price2"    mktoname="Card 2 Price (no $)" default="699000" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_curr2"     mktoname="Card 2 Currency"    default="USD" />
+
+
+
+
+
+
+
+<!-- === Module: Gmail Promotions Carousel (2) === -->
+<tr class="mktoModule" id="gmailPromotionsCarousel2" mktoname="Gmail Promotions Carousel (2)">
+  <!-- We hide the wrapper so it never impacts layout. Microdata lives inside. -->
+  <td style="display:none; mso-hide:all;">
+    <!-- Card 1 -->
+    <div itemscope itemtype="http://schema.org/PromotionCard">
+      <meta itemprop="image" content="${gpromo_img1}">
+      <meta itemprop="url" content="${gpromo_url1}">
+      <meta itemprop="headline" content="${gpromo_head1}">
+      <meta itemprop="price" content="${gpromo_price1}">
+      <meta itemprop="priceCurrency" content="${gpromo_curr1}">
+      <meta itemprop="position" content="1">
+    </div>
+
+    <!-- Card 2 -->
+    <div itemscope itemtype="http://schema.org/PromotionCard">
+      <meta itemprop="image" content="${gpromo_img2}">
+      <meta itemprop="url" content="${gpromo_url2}">
+      <meta itemprop="headline" content="${gpromo_head2}">
+      <meta itemprop="price" content="${gpromo_price2}">
+      <meta itemprop="priceCurrency" content="${gpromo_curr2}">
+      <meta itemprop="position" content="2">
+    </div>
+  </td>
+</tr>
+<!-- === /Module === -->
