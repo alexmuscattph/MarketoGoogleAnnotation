@@ -1,8 +1,8 @@
 <!-- Gmail Promotion — Single Card Variables -->
-<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img1"   mktoname="Card Image"    default="https://your-cdn.com/path/card1.jpg" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_url1"   mktoname="Card URL"      default="https://www.tripointehomes.com/promo-card-1" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_head1"  mktoname="Card Headline" default="Right Home, Right Now" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_price1" mktoname="Card Price"    default="655835" />
+<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img1"   mktoname="Card Image"    default="https://pages.tripointehomes.com/rs/167-BTV-942/images/1200x628_MGExterior.png?version=0" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_url1"   mktoname="Card URL"      default="https://www.tripointehomes.com/ca/sacramento/mountaingate-at-bickford/" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_head1"  mktoname="Card Headline" default="Explore Mountaingate" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_price1" mktoname="Card Price"    default="999999" />
 <meta mktomodulescope="true" class="mktoString" id="gpromo_curr1"  mktoname="Currency"      default="USD" />
 <!-- /Gmail Promotion — Single Card Variables -->
 
