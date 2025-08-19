@@ -10,7 +10,7 @@
 <meta mktomodulescope="true" class="mktoString" id="gpromo_head2"     mktoname="Card 2 Headline"    default="Limited-Time Savings" />
 <meta mktomodulescope="true" class="mktoString" id="gpromo_price2"    mktoname="Card 2 Price (no $)" default="699000" />
 <meta mktomodulescope="true" class="mktoString" id="gpromo_curr2"     mktoname="Card 2 Currency"    default="USD" />
-
+<!-- /Gmail Promotions (2-card) — Module Variables -->
 
 
 
