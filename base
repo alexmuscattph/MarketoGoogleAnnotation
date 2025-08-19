@@ -1,15 +1,16 @@
-<!-- Gmail Promotions — Module Variables -->
-<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img1"      mktoname="Card 1 Image"       default="https://your-cdn.com/path/card1.jpg" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_url1"      mktoname="Card 1 URL"         default="https://www.tripointehomes.com/promo-card-1" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_head1"     mktoname="Card 1 Headline"    default="Right Home, Right Now" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_price1"    mktoname="Card 1 Price (no $)" default="888888" />
-<meta mktomodulescope="true" class="mktoString" id="gpromo_curr1"     mktoname="Card 1 Currency"    default="USD" />
-<!-- /Gmail Promotions — Module Variables -->
+<!-- Gmail Promotion — Single Card Variables -->
+<meta mktomodulescope="true" class="mktoImg"    id="gpromo_img1"   mktoname="Card Image"    default="https://your-cdn.com/path/card1.jpg" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_url1"   mktoname="Card URL"      default="https://www.tripointehomes.com/promo-card-1" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_head1"  mktoname="Card Headline" default="Right Home, Right Now" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_price1" mktoname="Card Price"    default="655835" />
+<meta mktomodulescope="true" class="mktoString" id="gpromo_curr1"  mktoname="Currency"      default="USD" />
+<!-- /Gmail Promotion — Single Card Variables -->
 
 
-<!-- === Module: Gmail Promotions Carousel === -->
-<tr class="mktoModule" id="gmailPromotionsCarousel2" mktoname="Gmail Promotions Carousel (2)">
-  <td style="display:none; mso-hide:all;">
+
+<!-- === Module: Gmail Promotion (Single) === -->
+<tr class="mktoModule" id="gmailPromotionSingle" mktoname="Gmail Promotion (Single)">
+  <td style="display:none; mso-hide:all;" aria-hidden="true">
     <div itemscope itemtype="http://schema.org/PromotionCard">
       <meta itemprop="image" content="${gpromo_img1}">
       <meta itemprop="url" content="${gpromo_url1}">
@@ -21,3 +22,4 @@
   </td>
 </tr>
 <!-- === /Module === -->
+
